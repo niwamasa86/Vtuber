@@ -20,11 +20,13 @@ div {
 
 .box1, .box2, .box3, .box4 {
 
-  float: right;
+  float: left;
 
   border-color: #bdffff;
+  border-radius: 10px;
 
-  width: 100%;
+
+  width: 1224px;
   height: 400px;
 
 }
@@ -35,6 +37,7 @@ div {
 
   float: left;
   border-color: #bdffff;
+  border-radius: 10px;
 
   width: 50%;
   height: 360px;
@@ -59,6 +62,7 @@ div {
   float: right;
 
   border-color: #bdffff;
+  border-radius: 10px;
 
   width: 50%;
   height: 360px;
@@ -66,8 +70,11 @@ div {
   font-size: 30px;
 
 }
+.kadomaru {
+   border-radius: 5px;   /* 角丸の指定 */
+}
 
-body {background-color: #dddddd; }
+
 
 .boxA {
 
@@ -83,4 +90,8 @@ body {background-color: #dddddd; }
 
   }
 
+}
+
+body {
+  
 }
